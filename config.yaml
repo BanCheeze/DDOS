@@ -1,0 +1,7 @@
+db_path: "tracking.db"               # Path database SQLite
+encryption_key: "REAGENT_SHADOWFORGE_SECRET_2025"  # Kunci enkripsi AES-256-GCM
+operator_id: "OPERATOR-001"          # ID operator yang DIKECUALIKAN dari pelacakan
+targets:
+  - "REAGENT-001"                    # Target ID 1
+  - "REAGENT-002"                    # Target ID 2
+  - "REAGENT-003"                    # Target ID 3
